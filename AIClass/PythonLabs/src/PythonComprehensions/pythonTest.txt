@@ -1,0 +1,53 @@
+1.  {j for j in range(0, 100, 10)} 
+>>>>  set(range(0, 100, 10))
+
+2. val1 = "something"     
+   val2 = "else" 
+   
+>>>> val1, val2 = ["something", "else"]
+
+3.  sm = 0     
+	for j in range(len(lstNums)):       
+	sm += lstNums[j]
+
+>>>>  sm = sum(lstNums)
+
+4.  {0, 8, 10, 18, 20, 28, 30, 38, 40, 48, 50, 58, 60, 68, 70, 78, 80, 88, 90, 98} 
+ >>>>  set(sorted(set(range(0, 100, 10)) | set(range(8, 100, 10))))
+
+5.  A list of length 20 where each entry is a 7 
+>>> [7] * 20
+
+6.  "frogfrogfrogfrogfrogfrogfrogfrogfrogtoad" 
+>>> "frog"*9+"toad"
+
+7.  List of all the distinct chars in  myStr 
+>>> set(s)
+
+8.  myInt – myInt 
+>>> 0.0
+
+9.  for idx in range(len(pzl)):       
+	sym = pzl[idx] 
+>>> for sym in pzl:
+
+
+10.  myCopy = listOfInts.deepcopy()
+>>> myCopy = listOfInts[:]
+
+11.  Given a binary num, binInt, identify an on bit in binInt. 
+don't know how to do it
+
+12.  A list of integers from 1 to 100, inclusive, but if an integer is divisible by 5, it is replaced by a 5, and if an integer is divisible by 7 and not by 5, it is replaced by a 7 
+[5 if  not (j%5) else 7 if not (j%7) else j for j in range(1, 101)]
+
+
+13.  The set of positive integers less than 1024 that are not perfect squares 
+>>> [j for j in range(1, 1025) if j**0.5 != int(j**.5) ]
+
+14.  Print of a 2D representation of a Sudoku puzzle, where the puzzle is represented by a string, pzl, of length 81 
+>>> print("\n".join(pzl[i:i+9] for i in range (0, 81, 9)))
+
+
+
+
